@@ -6,7 +6,7 @@
 
 No diretorio `suflex-api`
 
-1. Faça um arquvivo .env baseado no .env.example e configure de acordo com seu Banco de Dados
+1. Faça um arquvivo `.env` baseado no `.env.example` e configure de acordo com seu Banco de Dados
 
 2. Instale as despendencias `npm install`ou `yarn`
 
