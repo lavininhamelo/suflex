@@ -1,0 +1,13 @@
+import React from 'react';
+import { Footer } from './style.js';
+
+export default () => {
+  return (
+    <Footer>
+      <span>
+        Copyright © 2020 - Developed by{' '}
+        <a href="https://github.com/lavininhamelo">Lavinia Melo</a>
+      </span>
+    </Footer>
+  );
+};

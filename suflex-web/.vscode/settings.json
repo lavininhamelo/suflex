@@ -1,0 +1,41 @@
+{
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+
+  "eslint.validate": ["javascript"],
+  "workbench.colorCustomizations": {
+    "activityBar.activeBackground": "#282828",
+    "activityBar.activeBorder": "#606020",
+    "activityBar.background": "#282828",
+    "activityBar.foreground": "#e7e7e7",
+    "activityBar.inactiveForeground": "#e7e7e799",
+    "activityBarBadge.background": "#606020",
+    "activityBarBadge.foreground": "#e7e7e7",
+    "statusBar.background": "#0f0f0f",
+    "statusBar.foreground": "#e7e7e7",
+    "statusBarItem.hoverBackground": "#282828",
+    "titleBar.activeBackground": "#0f0f0f",
+    "titleBar.activeForeground": "#e7e7e7",
+    "titleBar.inactiveBackground": "#0f0f0f99",
+    "titleBar.inactiveForeground": "#e7e7e799"
+  },
+
+  "files.exclude": {
+    "**/.git": true, // this is a default value
+    "**/.DS_Store": true, // this is a default value
+
+    // "**/node_modules": true, // this excludes all folders
+    // named "node_modules" from
+    // the explore tree
+    "**/public": true, // this excludes all folders
+    "**/.vscode": true // this excludes all folders
+    // alternative version
+    // "node_modules": true, // this excludes the folder
+    // only from the root of
+    // your workspace
+  },
+  "peacock.color": "#0f0f0f"
+}
